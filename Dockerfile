@@ -12,8 +12,9 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN apt-get update &&\
     apt install -y curl jq bash nodejs npm python3 python3-pip && \
+    pip3 install --upgrade pip && \
     pip3 install awscli netaddr && \
-    npm install &&\
+    npm install && \
     apt-get purge -y npm && \
     apt clean
 
