@@ -6,3 +6,4 @@ This repository will deploy a nodejs application in a Fargate service to prepare
 
 Instructions on how to use the code in this repository can be found here: [https://ecsworkshop.com/microservices/nodejs/](https://ecsworkshop.com/microservices/nodejs/)
 
+
